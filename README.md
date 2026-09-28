@@ -53,3 +53,42 @@
 | [**AKSHAYA-SAHAYI**](https://github.com/neeraj-k-r/AKSHAYA-SAHAYI) | Social-impact web app | JavaScript |
 | [**healthai**](https://github.com/neeraj-k-r/healthai) | AI health experiments | TypeScript |
 | [**portfoolio**](https://github.com/neeraj-k-r/portfoolio) | Personal portfolio | JavaScript |
+
+## 🎓 Licenses & Certifications
+
+**AWS**
+- AWS Cloud Solutions Architect (Feb 2026)
+- Building Data Lakes on AWS (Feb 2026)
+- Architecting Solutions on AWS (Jan 2026)
+- AWS Cloud Technical Essentials (Jan 2026) — IAM, S3
+
+**IBM / Coursera**
+- Python for Data Science, AI & Development (Feb 2026)
+- Introduction to HTML, CSS, & JavaScript (Feb 2026)
+- Generative AI: Prompt Engineering Basics (Dec 2025)
+- Introduction to Software Engineering (Dec 2025)
+- Generative AI: Introduction and Applications (Nov 2025)
+- Introduction to Artificial Intelligence (AI) (Nov 2025)
+- Artificial Intelligence Fundamentals (Jul 2025)
+
+**NeST Digital**
+- Cloud Computing Internship (Jun 2026) — Cloud Computing, Microsoft Azure
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=neeraj-k-r&show_icons=true&theme=tokyonight&hide_border=true" />
+<img height="160" src="https://streak-stats.demolab.com?user=neeraj-k-r&theme=tokyonight&hide_border=true" />
+<br/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=neeraj-k-r&layout=compact&theme=tokyonight&hide_border=true" />
+<br/>
+<img src="https://github-profile-trophy.vercel.app/?username=neeraj-k-r&theme=tokyonight&no-frame=true&row=1" />
+
+</div>
+
+---
+
+<div align="center">
+<i>CS Undergrad '27 | Building in public with tiny commits</i>
+</div>
