@@ -51,3 +51,12 @@
   <br/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=neeraj-k-r&layout=compact&theme=dark&hide_border=true&bg_color=000000" />
 </p>
+
+---
+
+<h3 align="center">CONNECT WITH ME</h3>
+
+<p align="center">
+  <a href="https://github.com/neeraj-k-r"><img src="https://img.shields.io/badge/GITHUB-black?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/neeraj--k-r"><img src="https://img.shields.io/badge/LINKEDIN-black?style=for-the-badge&logo=linkedin&logoColor=0A66C2" /></a>
+</p>
