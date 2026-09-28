@@ -85,14 +85,6 @@
 
 </div>
 
-## 🐍 Contribution Snake
-
-<div align="center">
-
-![Snake animation](https://raw.githubusercontent.com/neeraj-k-r/neeraj-k-r/output/github-snake-dark.svg)
-
-</div>
-
 ## 🤝 Connect With Me
 
 <div align="center">
@@ -106,6 +98,36 @@
 🌱 Currently exploring **Scalable architectures, AI agents, and full-stack best practices**
 
 </div>
+
+## ⚡ What I'm Up To
+
+- 🔨 Leading **Campus Bridge** with a 4-person team — hub-and-spoke campus platform
+- 📚 B.Tech Computer Engineering @ SMIT (2023-2027)
+- 🎯 Preparing for **software engineer roles** — DSA + full-stack + cloud
+- ✨ Open to **collabs, hackathons, and open source**
+
+## 🧰 Daily Toolbox
+
+<p align="center">
+  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat&logo=visualstudiocode&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black" />
+  <img src="https://img.shields.io/badge/Render-46E3B7?style=flat&logo=render&logoColor=black" />
+  <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white" />
+  <img src="https://img.shields.io/badge/AWS_Console-232F3E?style=flat&logo=amazonaws&logoColor=white" />
+  <img src="https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white" />
+</p>
+
+## 🏆 Highlights
+
+<p align="center">
+  <img src="https://img.shields.io/badge/B.Tech_'27-SMIT-blue?style=flat" />
+  <img src="https://img.shields.io/badge/Team_Lead-Campus_Bridge-green?style=flat" />
+  <img src="https://img.shields.io/badge/2_Internships-NeST_%2B_Small_Binary-orange?style=flat" />
+  <img src="https://img.shields.io/badge/12+_Certs-AWS_%2B_IBM-purple?style=flat" />
+  <img src="https://img.shields.io/badge/15_Public_Repos-8_Stars-yellow?style=flat" />
+</p>
 
 ---
 
