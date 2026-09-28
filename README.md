@@ -6,7 +6,6 @@
 
 ![Profile Views](https://komarev.com/ghpvc/?username=neeraj-k-r&color=58a6ff&style=flat)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/neeraj--k-r)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/neeraj-k-r)
 
 </div>
 
@@ -52,7 +51,7 @@
 | [**hostel-mgmt**](https://github.com/neeraj-k-r/hostel-mgmt) | Hostel management with DBMS — students, rooms, staff | JavaScript, DBMS |
 | [**AKSHAYA-SAHAYI**](https://github.com/neeraj-k-r/AKSHAYA-SAHAYI) | Social-impact web app | JavaScript |
 | [**healthai**](https://github.com/neeraj-k-r/healthai) | AI health experiments | TypeScript |
-| [**portfoolio**](https://github.com/neeraj-k-r/portfoolio) | Personal portfolio | JavaScript |
+| [**portfoolio**](https://github.com/neeraj-k-r/portfoolio) — [Live](https://neerajkr.portfoolio.me) | Personal portfolio | JavaScript |
 
 ## 🎓 Licenses & Certifications
 
@@ -89,9 +88,9 @@
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-neeraj--k--r-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/neeraj--k-r)
-[![Portfolio](https://img.shields.io/badge/Portfolio-neeraj--k--r.github.io-58a6ff?style=for-the-badge&logo=githubpages&logoColor=white)](https://neeraj-k-r.github.io)
-[![GitHub](https://img.shields.io/badge/GitHub-neeraj--k--r-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/neeraj-k-r)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-NEERAJ_K_R-black?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://www.linkedin.com/in/neeraj--k-r)
+[![Portfolio](https://img.shields.io/badge/PORTFOLIO-NEERAJKR.PORTFOOLIO.ME-black?style=for-the-badge&logo=vercel&logoColor=white)](https://neerajkr.portfoolio.me)
+[![GitHub](https://img.shields.io/badge/GITHUB-NEERAJ_K_R-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/neeraj-k-r)
 
 💬 Ask me about **React, Firebase, Node.js, Python, AWS, Azure**
 <br/>
