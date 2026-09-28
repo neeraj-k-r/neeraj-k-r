@@ -81,6 +81,29 @@
 <img src="https://img.shields.io/github/followers/neeraj-k-r?style=flat&logo=github&label=Followers&color=58a6ff" />
 <img src="https://img.shields.io/github/stars/neeraj-k-r?style=flat&logo=github&label=Total%20Stars&color=yellow" />
 <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fneeraj-k-r&query=%24.public_repos&label=Public%20Repos&color=58a6ff&logo=github" />
+<img src="https://img.shields.io/github/last-commit/neeraj-k-r/campusbridge?style=flat&logo=github&label=Last%20Commit&color=green" />
+
+</div>
+
+## 🐍 Contribution Snake
+
+<div align="center">
+
+![Snake animation](https://raw.githubusercontent.com/neeraj-k-r/neeraj-k-r/output/github-snake-dark.svg)
+
+</div>
+
+## 🤝 Connect With Me
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-neeraj--k--r-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/neeraj--k-r)
+[![Portfolio](https://img.shields.io/badge/Portfolio-neeraj--k--r.github.io-58a6ff?style=for-the-badge&logo=githubpages&logoColor=white)](https://neeraj-k-r.github.io)
+[![GitHub](https://img.shields.io/badge/GitHub-neeraj--k--r-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/neeraj-k-r)
+
+💬 Ask me about **React, Firebase, Node.js, Python, AWS, Azure**
+<br/>
+🌱 Currently exploring **Scalable architectures, AI agents, and full-stack best practices**
 
 </div>
 
