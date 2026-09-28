@@ -23,3 +23,15 @@
   <img src="https://img.shields.io/badge/GIT-black?style=for-the-badge&logo=git&logoColor=F05032" />
   <img src="https://img.shields.io/badge/LINUX-black?style=for-the-badge&logo=linux&logoColor=white" />
 </p>
+
+---
+
+<h3 align="center">FEATURED BUILDS</h3>
+
+<p align="center">
+  <b><a href="https://github.com/neeraj-k-r/campusbridge">Campus Bridge</a></b> — AI-Driven Event & Networking Platform<br/>
+  React + Firebase + Render | AI event posters | QR registration | Live chat | Bus tracker
+  <br/><br/>
+  <b><a href="https://github.com/neeraj-k-r/hostel-mgmt">hostel-mgmt</a></b> — Hostel Management System (DBMS)<br/>
+  <b><a href="https://github.com/neeraj-k-r/AKSHAYA-SAHAYI">AKSHAYA-SAHAYI</a></b> • <b><a href="https://github.com/neeraj-k-r/healthai">healthai</a></b> • <b><a href="https://github.com/neeraj-k-r/portfoolio">portfoolio</a></b>
+</p>
