@@ -78,12 +78,11 @@
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=neeraj-k-r&show_icons=true&theme=tokyonight&hide_border=true" />
 <img height="160" src="https://streak-stats.demolab.com?user=neeraj-k-r&theme=tokyonight&hide_border=true" />
 <br/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=neeraj-k-r&layout=compact&theme=tokyonight&hide_border=true" />
-<br/>
-<img src="https://github-profile-trophy.vercel.app/?username=neeraj-k-r&theme=tokyonight&no-frame=true&row=1" />
+<img src="https://img.shields.io/github/followers/neeraj-k-r?style=flat&logo=github&label=Followers&color=58a6ff" />
+<img src="https://img.shields.io/github/stars/neeraj-k-r?style=flat&logo=github&label=Total%20Stars&color=yellow" />
+<img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fneeraj-k-r&query=%24.public_repos&label=Public%20Repos&color=58a6ff&logo=github" />
 
 </div>
 
