@@ -33,3 +33,23 @@
   <img src="https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white" />
   <img src="https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white" />
 </p>
+
+## 💼 Experience
+
+**Cloud Computing Intern — NeST Digital** `Jun 2026 · 1 mo · Remote`
+- Intensive internship on cloud fundamentals: infrastructure, virtualization, resource management
+- Learned to navigate modern cloud environments and scalable architectures
+
+**Web Development Intern — Small Binary LLP** `Jun 2025 · 1 mo`
+- Developed and deployed real-world web apps using React, Node.js, and Python
+- Collaborated in agile team to optimize workflows and system performance
+
+## 📌 Featured Projects
+
+| Project | What it is | Stack |
+|---|---|---|
+| [**Campus Bridge**](https://github.com/neeraj-k-r/campusbridge) **\| Lead Developer** | AI-driven multi-institutional platform, hub-and-spoke model. AI posters, QR registration, live chat, anonymous feedback, live bus tracker + Ledger attendance/grading system | React, Node.js, Firebase, Render |
+| [**hostel-mgmt**](https://github.com/neeraj-k-r/hostel-mgmt) | Hostel management with DBMS — students, rooms, staff | JavaScript, DBMS |
+| [**AKSHAYA-SAHAYI**](https://github.com/neeraj-k-r/AKSHAYA-SAHAYI) | Social-impact web app | JavaScript |
+| [**healthai**](https://github.com/neeraj-k-r/healthai) | AI health experiments | TypeScript |
+| [**portfoolio**](https://github.com/neeraj-k-r/portfoolio) | Personal portfolio | JavaScript |
