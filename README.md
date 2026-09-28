@@ -35,3 +35,19 @@
   <b><a href="https://github.com/neeraj-k-r/hostel-mgmt">hostel-mgmt</a></b> — Hostel Management System (DBMS)<br/>
   <b><a href="https://github.com/neeraj-k-r/AKSHAYA-SAHAYI">AKSHAYA-SAHAYI</a></b> • <b><a href="https://github.com/neeraj-k-r/healthai">healthai</a></b> • <b><a href="https://github.com/neeraj-k-r/portfoolio">portfoolio</a></b>
 </p>
+
+---
+
+<h3 align="center">CREDENTIALS</h3>
+
+<p align="center">
+  AWS: Architecting Solutions on AWS (Coursera)<br/>
+  IBM: Python for Data Science, AI & Development<br/>
+  IBM: Generative AI — Introduction and Applications
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=neeraj-k-r&show_icons=true&theme=dark&hide_border=true&bg_color=000000" />
+  <br/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=neeraj-k-r&layout=compact&theme=dark&hide_border=true&bg_color=000000" />
+</p>
