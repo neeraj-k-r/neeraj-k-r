@@ -2,7 +2,7 @@
 
 # 👋 Hi there, I'm Neeraj K R
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=1000&color=58A6FF&center=true&width=620&lines=Cloud+Computing+Intern+%40+NeST+Digital;Web+Development+Intern+%40+Small+Binary;React+%2B+Firebase+%2B+AWS+Builder;Kochi%2C+Kerala%2C+India" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=1000&color=58A6FF&center=true&width=620&lines=Aspiring+Cloud+%26+Web+Developer;React+%2B+Firebase+%2B+AWS+Builder;Ex+Intern+%40+NeST+Digital+%26+Small+Binary;Kochi%2C+Kerala%2C+India" />
 
 ![Profile Views](https://komarev.com/ghpvc/?username=neeraj-k-r&color=58a6ff&style=flat)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/neeraj--k-r)
@@ -13,7 +13,7 @@
 ## 🚀 About Me
 
 - 🔭 Building **Campus Bridge** — AI-driven campus event & networking platform (React, Firebase, Render)
-- ☁️ Cloud Computing Intern @ **NeST Digital** | 💻 Web Dev Intern @ **Small Binary LLP**
+- 💼 Former Cloud Intern @ **NeST Digital** | Former Web Dev Intern @ **Small Binary LLP**
 - 🌱 Learning **AWS architecture + Generative AI**
 - 📍 Kochi, Kerala, India
 - 📫 Let's connect on [LinkedIn](https://www.linkedin.com/in/neeraj--k-r)
