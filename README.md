@@ -6,7 +6,8 @@
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=1000&color=58A6FF&center=true&width=640&lines=Computer+Science+Undergraduate;Aspiring+Software+Engineer;AI+%7C+Machine+Learning+%7C+Full-Stack;Kochi%2C+Kerala%2C+India" />
 
-![Profile Views](https://komarev.com/ghpvc/?username=neeraj-k-r&color=58a6ff&style=flat)
+<img src="https://img.shields.io/badge/Open_to-Work%20%7C%20Collabs%20%7C%20Hackathons-green?style=flat" />
+<img src="https://img.shields.io/badge/Focus-Full_Stack_%7C_AI-58a6ff?style=flat" />
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/neeraj--k-r)
 
 </div>
