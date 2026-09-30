@@ -51,7 +51,7 @@
 |---|---|---|
 | [**Campus Bridge**](https://github.com/neeraj-k-r/campusbridge) **\| Lead Developer** | AI-driven multi-institutional platform, hub-and-spoke model. AI posters, QR registration, live chat, anonymous feedback, live bus tracker + Ledger attendance/grading system | React, Node.js, Firebase, Render |
 | [**hostel-mgmt**](https://github.com/neeraj-k-r/hostel-mgmt) | Hostel management with DBMS — students, rooms, staff | JavaScript, DBMS |
-| [**AKSHAYA-SAHAYI**](https://github.com/neeraj-k-r/AKSHAYA-SAHAYI) | Social-impact web app | JavaScript |
+| [**AKSHAYA-SAHAYI**](https://github.com/neeraj-k-r/AKSHAYA-SAHAYI) | WhatsApp-integrated project for citizens — chat Kapso bot, upload docs, Gemini AI verifies, React dashboard for officials | Node.js, React, Supabase, Gemini |
 | [**healthai**](https://github.com/neeraj-k-r/healthai) | AI health experiments | TypeScript |
 | [**portfoolio**](https://github.com/neeraj-k-r/portfoolio) — [Live](https://neerajkr.portfoolio.me) | Personal portfolio | JavaScript |
 
