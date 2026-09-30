@@ -53,7 +53,7 @@
 | [**hostel-mgmt**](https://github.com/neeraj-k-r/hostel-mgmt) | Hostel management with DBMS — students, rooms, staff | JavaScript, DBMS |
 | [**AKSHAYA-SAHAYI**](https://github.com/neeraj-k-r/AKSHAYA-SAHAYI) | WhatsApp-integrated project for citizens — chat Kapso bot, upload docs, Gemini AI verifies, React dashboard for officials | Node.js, React, Supabase, Gemini |
 | [**naatukavala**](https://github.com/neeraj-k-r/naatukavala) | Hyperlocal marketplace connecting local shops & buyers — shops, products, cart, checkout | Next.js, TypeScript |
-| [**portfoolio**](https://github.com/neeraj-k-r/portfoolio) — [Live](https://neerajkr.portfoolio.me) | Personal portfolio | JavaScript |
+| [**portfoolio**](https://github.com/neeraj-k-r/portfoolio) — [Live](https://neerajkr.portfoolio.me) | Portfolio-builder platform — claim yourname.portfoolio.me, 10 themes, auto resume + LinkedIn import, GitHub-verified skill evidence | JS, Supabase, Cloudflare Workers |
 
 ## 🎓 Licenses & Certifications
 
