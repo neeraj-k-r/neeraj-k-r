@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="https://user-images.githubusercontent.com/74038190/212750337-1a2e8f6b-c1cb-4e58-9a2d-99f1ef6d4d52.gif" width="100%" alt="Coding banner" />
+
 # 👋 Hi there, I'm Neeraj K R
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=1000&color=58A6FF&center=true&width=640&lines=Computer+Science+Undergraduate;Aspiring+Software+Engineer;AI+%7C+Machine+Learning+%7C+Full-Stack;Kochi%2C+Kerala%2C+India" />
