@@ -1,7 +1,7 @@
 
 <div align="center">
 
-<img src="https://www.gitskins.com/api/section/hero?username=neeraj-k-r&theme=github-dark&style=aura&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F183535209%3Fu%3Da3f35c5f32e0c24f092e69b85ec9707b96439f5e%26v%3D4&v=showcase-hero-1" width="100%" alt="Hero"/>
+
 
 <img src="https://www.gitskins.com/api/section/wordmark?username=neeraj-k-r&theme=github-dark&style=aura&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F183535209%3Fu%3Da3f35c5f32e0c24f092e69b85ec9707b96439f5e%26v%3D4&v=showcase-wordmark-2" width="100%" alt="Wordmark"/>
 
