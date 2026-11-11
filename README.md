@@ -30,24 +30,7 @@
   </a>
 </div>
 
-<br/>
 
-<details open>
-<summary><b>📦 Project Repository Index</b></summary>
-
-<br/>
-
-| Project | Description | Tech Stack | Stars |
-| :--- | :--- | :--- | :---: |
-| 🎓 **[campusbridge](https://github.com/neeraj-k-r/campusbridge)** | Campus collaboration and student management platform | `JavaScript` `Web` | ★ 2 |
-| 🏛️ **[AKSHAYA-SAHAYI](https://github.com/neeraj-k-r/AKSHAYA-SAHAYI)** | Citizen-first service utility and governance assistant portal | `JavaScript` `Full-Stack` | ★ 2 |
-| 🤖 **[Agentic-AI-Interview-Trainer](https://github.com/neeraj-k-r/Agentic-AI-Interview-Trainer)** | AI mock interview trainer with agent feedback powered by IBM Cloud | `AI / Agents` `Cloud` | ★ 1 |
-| 📈 **[smart-leads-dashboard](https://github.com/neeraj-k-r/smart-leads-dashboard)** | Interactive analytics dashboard for sales leads conversion | `JavaScript` `Analytics` | ★ 1 |
-| 🏨 **[hostel-mgmt](https://github.com/neeraj-k-r/hostel-mgmt)** | Hostel Management System demonstrating relational DBMS concepts | `JavaScript` `SQL / DBMS` | ★ 0 |
-| 💼 **[portfoolio](https://github.com/neeraj-k-r/portfoolio)** | Responsive developer portfolio showcase | `JavaScript` `CSS3` | ★ 0 |
-| 🛠️ **[KODEFIX](https://github.com/neeraj-k-r/KODEFIX)** | Code diagnostic and rapid developer bug fixing utility | `JavaScript` `Tools` | ★ 1 |
-
-</details>
 
 ---
 
