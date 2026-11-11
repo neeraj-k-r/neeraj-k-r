@@ -1,68 +1,109 @@
-<p align="center">
-  <img src="https://www.gitskins.com/api/section/hero?username=neeraj-k-r&theme=neon&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F183535209%3Fu%3Da3f35c5f32e0c24f092e69b85ec9707b96439f5e%26v%3D4" alt="neeraj-k-r hero visual" />
-</p>
+<div align="center">
 
-<p align="center"><b>Neeraj K R </b> · Frontend or full-stack engineer<br/><sub>Building in public on GitHub.</sub></p>
+  <!-- Terminal Wordmark Header (Image 1) -->
+  <a href="https://github.com/neeraj-k-r">
+    <img src="assets/wordmark.svg" alt="neeraj-k-r wordmark" width="100%" />
+  </a>
 
-<p align="center"><a href="https://github.com/neeraj-k-r">GitHub</a></p>
+  <br/>
+
+  <p align="center">
+    <strong>Neeraj K R</strong> · Frontend & Full-Stack Engineer
+    <br/>
+    <sub>Building modern web applications, intelligent agents, and interactive experiences.</sub>
+  </p>
+
+  <p align="center">
+    <a href="https://github.com/neeraj-k-r"><img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+    <a href="https://linkedin.com/in/neeraj-k-r"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+    <a href="mailto:neeraj.k.r@example.com"><img src="https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  </p>
+
+</div>
+
+---
+
+### 💻 `neeraj-k-r@github:~$ whoami --verbose`
+
+```yaml
+name: Neeraj K R
+role: Frontend & Full-Stack Developer
+focus: Modern JavaScript/TypeScript ecosystems, Agentic AI, and scalable web apps
+current_status: Shipping open-source projects & exploring agent architectures
+learning: Cloud-native workflows, LLM orchestration, and modern UX design
+```
+
+---
+
+## 🎬 Featured reel
+
+<div align="center">
+  <!-- Projects Reel (Image 2) -->
+  <a href="https://github.com/neeraj-k-r?tab=repositories">
+    <img src="assets/featured-reel.svg" alt="Featured reel - Projects" width="100%" />
+  </a>
+</div>
+
+<br/>
 
 <details open>
-<summary><b>📌 Top projects</b></summary>
+<summary><b>📦 Project Repository Index</b></summary>
+
 <br/>
 
-<p align="center">
-  <img src="https://www.gitskins.com/api/section/projects?username=neeraj-k-r&theme=neon&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F183535209%3Fu%3Da3f35c5f32e0c24f092e69b85ec9707b96439f5e%26v%3D4" alt="neeraj-k-r projects visual" />
-</p>
-
-- [campusbridge](https://github.com/neeraj-k-r/campusbridge) · ★ 2
-- [AKSHAYA-SAHAYI](https://github.com/neeraj-k-r/AKSHAYA-SAHAYI) · ★ 2
-- [Agentic-AI-Interview-Trainer](https://github.com/neeraj-k-r/Agentic-AI-Interview-Trainer) · ★ 1 — AI interview trainer using ibm cloud
-- [smart-leads-dashboard](https://github.com/neeraj-k-r/smart-leads-dashboard) · ★ 1
-- [KODEFIX](https://github.com/neeraj-k-r/KODEFIX) · ★ 1
-- [hostel-mgmt](https://github.com/neeraj-k-r/hostel-mgmt) · ★ 0 — A simple Hostel Management System website implementing DBMS concepts. This project demonstrates how 
+| Project | Description | Tech Stack | Stars |
+| :--- | :--- | :--- | :---: |
+| 🎓 **[campusbridge](https://github.com/neeraj-k-r/campusbridge)** | Campus collaboration and student management platform | `JavaScript` `Web` | ★ 2 |
+| 🏛️ **[AKSHAYA-SAHAYI](https://github.com/neeraj-k-r/AKSHAYA-SAHAYI)** | Citizen-first service utility and governance assistant portal | `JavaScript` `Full-Stack` | ★ 2 |
+| 🤖 **[Agentic-AI-Interview-Trainer](https://github.com/neeraj-k-r/Agentic-AI-Interview-Trainer)** | AI mock interview trainer with agent feedback powered by IBM Cloud | `AI / Agents` `Cloud` | ★ 1 |
+| 📈 **[smart-leads-dashboard](https://github.com/neeraj-k-r/smart-leads-dashboard)** | Interactive analytics dashboard for sales leads conversion | `JavaScript` `Analytics` | ★ 1 |
+| 🏨 **[hostel-mgmt](https://github.com/neeraj-k-r/hostel-mgmt)** | Hostel Management System demonstrating relational DBMS concepts | `JavaScript` `SQL / DBMS` | ★ 0 |
+| 💼 **[portfoolio](https://github.com/neeraj-k-r/portfoolio)** | Responsive developer portfolio showcase | `JavaScript` `CSS3` | ★ 0 |
+| 🛠️ **[KODEFIX](https://github.com/neeraj-k-r/KODEFIX)** | Code diagnostic and rapid developer bug fixing utility | `JavaScript` `Tools` | ★ 1 |
 
 </details>
 
-<details>
-<summary><b>🧰 Stack</b></summary>
+---
+
+## 🧰 Stack & Technologies
+
+<div align="center">
+  <img src="https://www.gitskins.com/api/section/stack?username=neeraj-k-r&sectionStyle=terminal&theme=neon" alt="neeraj-k-r tech stack" width="100%" />
+</div>
+
 <br/>
 
 <p align="center">
-  <img src="https://www.gitskins.com/api/section/stack?username=neeraj-k-r&theme=neon&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F183535209%3Fu%3Da3f35c5f32e0c24f092e69b85ec9707b96439f5e%26v%3D4" alt="neeraj-k-r stack visual" />
+  <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,nodejs,express,python,html,css,tailwind,mongodb,postgres,git,github,docker" alt="Skills" />
 </p>
 
-</details>
+---
 
-<details>
-<summary><b>📊 By the numbers</b></summary>
+## 📊 By The Numbers
+
+<div align="center">
+  <img src="https://www.gitskins.com/api/section/stats?username=neeraj-k-r&sectionStyle=terminal&theme=neon" alt="neeraj-k-r stats" width="100%" />
+</div>
+
+---
+
+## 🟩 Contribution Activity
+
+<div align="center">
+  <img src="https://www.gitskins.com/api/section/heatmap?username=neeraj-k-r&theme=neon" alt="neeraj-k-r contribution activity" width="100%" />
+</div>
+
+---
+
+## 💬 Say Hello
+
+<div align="center">
+  <img src="https://www.gitskins.com/api/section/social?username=neeraj-k-r&sectionStyle=terminal&theme=neon" alt="neeraj-k-r social card" width="100%" />
+</div>
+
 <br/>
 
-<b>14</b> public repositories, <b>7</b> stars, <b>2,312</b> contributions in the last year, a longest streak of <b>37</b> days and <b>3</b> followers.
+<div align="center">
+  <sub><code>neeraj-k-r@github:~$ exit 0</code></sub>
+</div>
 
-<p align="center">
-  <img src="https://www.gitskins.com/api/section/stats?username=neeraj-k-r&theme=neon&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F183535209%3Fu%3Da3f35c5f32e0c24f092e69b85ec9707b96439f5e%26v%3D4" alt="neeraj-k-r stats visual" />
-</p>
-
-</details>
-
-<details>
-<summary><b>🟩 Activity</b></summary>
-<br/>
-
-<p align="center">
-  <img src="https://www.gitskins.com/api/section/heatmap?username=neeraj-k-r&theme=neon" alt="neeraj-k-r contribution activity" />
-</p>
-
-</details>
-
-<details>
-<summary><b>👋 Say hello</b></summary>
-<br/>
-
-<p align="center">
-  <img src="https://www.gitskins.com/api/section/social?username=neeraj-k-r&theme=neon&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F183535209%3Fu%3Da3f35c5f32e0c24f092e69b85ec9707b96439f5e%26v%3D4" alt="neeraj-k-r social visual" />
-</p>
-
-</details>
-
-<p align="center"><sub>Neeraj K R  · Everything hub generated with <a href="https://www.gitskins.com/readme-generator">GitSkins</a></sub></p>
