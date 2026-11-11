@@ -2,7 +2,7 @@
 
   <!-- Terminal Wordmark Header (Image 1) -->
   <a href="https://github.com/neeraj-k-r">
-    <img src="assets/wordmark.svg" alt="neeraj-k-r wordmark" width="100%" />
+    <img src="assets/wordmark.png" alt="neeraj-k-r wordmark" width="100%" />
   </a>
 
   <br/>
@@ -16,31 +16,17 @@
   <p align="center">
     <a href="https://github.com/neeraj-k-r"><img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
     <a href="https://linkedin.com/in/neeraj-k-r"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-    <a href="mailto:neeraj.k.r@example.com"><img src="https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+    <a href="mailto:neerajkr101010@gmail.com"><img src="https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   </p>
 
 </div>
 
 ---
 
-### 💻 `neeraj-k-r@github:~$ whoami --verbose`
-
-```yaml
-name: Neeraj K R
-role: Frontend & Full-Stack Developer
-focus: Modern JavaScript/TypeScript ecosystems, Agentic AI, and scalable web apps
-current_status: Shipping open-source projects & exploring agent architectures
-learning: Cloud-native workflows, LLM orchestration, and modern UX design
-```
-
----
-
-## 🎬 Featured reel
-
+<!-- Featured reel Section (Image 2) -->
 <div align="center">
-  <!-- Projects Reel (Image 2) -->
   <a href="https://github.com/neeraj-k-r?tab=repositories">
-    <img src="assets/featured-reel.svg" alt="Featured reel - Projects" width="100%" />
+    <img src="assets/featured-reel.png" alt="Featured reel" width="100%" />
   </a>
 </div>
 
@@ -106,4 +92,3 @@ learning: Cloud-native workflows, LLM orchestration, and modern UX design
 <div align="center">
   <sub><code>neeraj-k-r@github:~$ exit 0</code></sub>
 </div>
-
