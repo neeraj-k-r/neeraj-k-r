@@ -30,8 +30,6 @@
   </a>
 </div>
 
-
-
 ---
 
 ## 🧰 Stack & Technologies
