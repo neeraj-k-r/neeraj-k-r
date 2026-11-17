@@ -14,7 +14,7 @@
   </p>
 
   <p align="center">
-    <a href="https://portfoolio.me"><img src="https://portfoolio.me/badge.svg?label=Portfolio&status=Live&color=7c3aed" alt="Portfolio" /></a>
+    <a href="https://neerajkr.portfoolio.me"><img src="https://img.shields.io/badge/Portfolio-Live-7c3aed?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
     <a href="https://github.com/neeraj-k-r"><img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
     <a href="https://linkedin.com/in/neeraj-k-r"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
     <a href="mailto:neerajkr101010@gmail.com"><img src="https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
