@@ -8,7 +8,7 @@
   <br/>
 
   <p align="center">
-    <strong>Neeraj K R</strong> · Frontend & Full-Stack Engineer
+    <strong>Neeraj K R</strong> · AI Developer & Full-Stack Engineer
     <br/>
     <sub>Building modern web applications, intelligent agents, and interactive experiences.</sub>
   </p>
