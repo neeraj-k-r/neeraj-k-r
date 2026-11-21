@@ -59,3 +59,20 @@
 
   <sub><code>neeraj-k-r@github:~$ exit 0</code></sub>
 </div>
+## 🟩 Contribution Activity
+
+<div align="center">
+  <img src="https://www.gitskins.com/api/section/heatmap?username=neeraj-k-r&theme=neon" alt="neeraj-k-r contribution activity" width="100%" />
+</div>
+
+---
+
+## 💬 Say Hello
+
+<div align="center">
+  <img src="https://www.gitskins.com/api/section/social?username=neeraj-k-r&sectionStyle=terminal&theme=neon" alt="neeraj-k-r social card" width="100%" />
+</div>
+
+<br/>
+
+<div align="center">
