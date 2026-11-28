@@ -5,7 +5,7 @@
      SVGs, so keep this block free of blank lines and keep the cards in a row on
      one line with no spaces between them. -->
 <div align="center">
-<a href="https://neerajkr.portfoolio.me"><img src="./cards/hero.svg" width="100%" alt="Neeraj K R — Full-Stack Engineer and Creator of Portfoolio" /></a><br>
+<a href="https://neerajkr.portfoolio.me"><img src="./cards/hero.svg?v=3" width="100%" alt="Neeraj K R — Full-Stack Engineer and Creator of Portfoolio" /></a><br>
 <img src="./cards/heatmap.svg" width="100%" alt="Contribution graph for the last 12 months, in ink black, refreshed daily" /><br>
 <img src="./cards/activity.svg" width="100%" alt="Contributions by month, with total, longest streak, active days and busiest day" /><br>
 <a href="https://github.com/neeraj-k-r?tab=repositories"><img src="./cards/build.svg" width="33.333%" alt="Shipped: 16 public repos" /></a><a href="https://portfoolio.me"><img src="./cards/portfoolio.svg" width="33.333%" alt="Flagship: Portfoolio.me — Free Developer Portfolio Maker & Hosting" /></a><a href="https://github.com/neeraj-k-r"><img src="./cards/stars.svg" width="33.333%" alt="Yearly output and longest streak" /></a><br>
