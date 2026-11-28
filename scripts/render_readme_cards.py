@@ -85,13 +85,16 @@ def render_hero(stats):
         spacing = 3.35
         cx0 = 745 + (222 - (cols - 1) * spacing) / 2
         cy0 = 26 + (168 - (rows - 1) * spacing) / 2
-        for c, r, rad, op in zdata.get("dots", []):
+        for c, r, rad, val in zdata.get("dots", []):
             x = round(cx0 + c * spacing, 1)
             y = round(cy0 + r * spacing, 1)
-            dot_color = ZORO_GLOW if r < 16 else (ZORO if r < 30 else INK)
-            dots.append(
-                f'<circle cx="{x}" cy="{y}" r="{rad}" fill="{dot_color}" opacity="{op}"/>'
-            )
+            if isinstance(val, str) and val.startswith("#"):
+                dots.append(f'<circle cx="{x}" cy="{y}" r="{rad}" fill="{val}"/>')
+            else:
+                dot_color = ZORO_GLOW if r < 16 else (ZORO if r < 30 else INK)
+                dots.append(
+                    f'<circle cx="{x}" cy="{y}" r="{rad}" fill="{dot_color}" opacity="{val}"/>'
+                )
     else:
         cols, rows = 14, 10
         cx0, cy0 = 765, 36
