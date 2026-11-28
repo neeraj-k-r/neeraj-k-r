@@ -73,30 +73,31 @@ def write_svg(filename, content):
 
 
 def render_hero(stats):
-    # Halftone dot portrait grid on the right side
+    zoro_path = os.path.join(BASE_DIR, "data", "zoro_dots.json")
     dots = []
-    cols, rows = 14, 10
-    cx0, cy0 = 765, 36
-    spacing = 14
-    for r in range(rows):
-        for c in range(cols):
-            dx = (c - cols / 2 + 0.5) / (cols / 2)
-            dy = (r - rows / 2 + 0.5) / (rows / 2)
-            dist = math.sqrt(dx * dx + dy * dy)
-            # Silhouette pattern: head + shoulders
-            in_head = math.sqrt(dx * dx * 1.4 + (dy + 0.25) ** 2 * 1.8) < 0.55
-            in_shoulders = (dy > 0.28) and (abs(dx) < 0.85 - (dy - 0.28) * 0.2)
-            if in_head or in_shoulders:
-                rad = 3.8 if dist < 0.45 else 2.9
-                opacity = "0.92" if in_head else "0.75"
-            else:
-                rad = 1.1
-                opacity = "0.18"
-            x = cx0 + c * spacing
-            y = cy0 + r * spacing
+    if os.path.exists(zoro_path):
+        with open(zoro_path, "r", encoding="utf-8") as f:
+            zdata = json.load(f)
+        cols = zdata.get("cols", 56)
+        rows = zdata.get("rows", 48)
+        spacing = 3.35
+        cx0 = 745 + (222 - (cols - 1) * spacing) / 2
+        cy0 = 26 + (168 - (rows - 1) * spacing) / 2
+        for c, r, rad, op in zdata.get("dots", []):
+            x = round(cx0 + c * spacing, 1)
+            y = round(cy0 + r * spacing, 1)
             dots.append(
-                f'<circle cx="{x}" cy="{y}" r="{rad}" fill="{INK}" opacity="{opacity}"/>'
+                f'<circle cx="{x}" cy="{y}" r="{rad}" fill="{INK}" opacity="{op}"/>'
             )
+    else:
+        cols, rows = 14, 10
+        cx0, cy0 = 765, 36
+        spacing = 14
+        for r in range(rows):
+            for c in range(cols):
+                x = cx0 + c * spacing
+                y = cy0 + r * spacing
+                dots.append(f'<circle cx="{x}" cy="{y}" r="1.2" fill="{INK}" opacity="0.25"/>')
 
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 220" width="1000" height="220" role="img" aria-label="Neeraj K R — Full-Stack Engineer &amp; Creator of Portfoolio">
   <style>
