@@ -12,8 +12,8 @@
 <img src="./cards/title-building.svg" width="100%" alt="What I'm building" /><br>
 <a href="https://portfoolio.me"><img src="./cards/repo-portfoolio.svg" width="33.333%" alt="Portfoolio — Developer portfolio maker & wildcard hosting" /></a><a href="https://github.com/neeraj-k-r/AKSHAYA-SAHAYI"><img src="./cards/repo-akshaya.svg" width="33.333%" alt="Akshaya-Sahayi" /></a><a href="https://github.com/neeraj-k-r/campusbridge"><img src="./cards/repo-campusbridge.svg" width="33.333%" alt="CampusBridge" /></a><br>
 <img src="./cards/skills.svg" width="100%" alt="Skills and stack: Languages, Frontend, Backend, Cloud and Data, AI and Agents" /><br><br>
-<a href="https://neerajkr.portfoolio.me"><img src="https://img.shields.io/badge/Portfolio-neerajkr.portfoolio.me-111111?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
-<a href="https://portfoolio.me"><img src="https://img.shields.io/badge/Portfoolio-Portfolio_Maker-111111?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Portfoolio Maker" /></a>
-<a href="https://linkedin.com/in/neeraj-k-r"><img src="https://img.shields.io/badge/LinkedIn-Connect-111111?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="mailto:neerajkr101010@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-111111?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+<a href="https://neerajkr.portfoolio.me"><img src="https://img.shields.io/badge/Portfolio-neerajkr.portfoolio.me-22c55e?style=for-the-badge&logo=googlechrome&logoColor=0d1117&labelColor=0d1117" alt="Portfolio" /></a>
+<a href="https://portfoolio.me"><img src="https://img.shields.io/badge/Portfoolio-Portfolio_Maker-22c55e?style=for-the-badge&logo=cloudflare&logoColor=0d1117&labelColor=0d1117" alt="Portfoolio Maker" /></a>
+<a href="https://linkedin.com/in/neeraj-k-r"><img src="https://img.shields.io/badge/LinkedIn-Connect-22c55e?style=for-the-badge&logo=linkedin&logoColor=0d1117&labelColor=0d1117" alt="LinkedIn" /></a>
+<a href="mailto:neerajkr101010@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-22c55e?style=for-the-badge&logo=gmail&logoColor=0d1117&labelColor=0d1117" alt="Email" /></a>
 </div>

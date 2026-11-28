@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 112" width="330" height="112" role="img" aria-label="Portfoolio Portfolio Maker">
-  <rect x="2" y="2" width="326" height="108" rx="12" fill="#FAF9F6" stroke="#111111" stroke-width="2"/>
-  <text x="22" y="28" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10.5" font-weight="700" letter-spacing="1.4" fill="#8E8B84">FLAGSHIP</text>
-  <text x="22" y="66" font-family="'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" font-weight="900" fill="#111111">PORTFOOLIO.ME</text>
-  <text x="22" y="90" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" fill="#55524D">Free Portfolio Maker &amp; Hosting</text>
+  <rect x="2" y="2" width="326" height="108" rx="12" fill="#0D1117" stroke="#30363D" stroke-width="2"/>
+  <text x="22" y="28" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10.5" font-weight="700" letter-spacing="1.4" fill="#22C55E">FLAGSHIP</text>
+  <text x="22" y="66" font-family="'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" font-weight="900" fill="#F0F6FC">PORTFOOLIO.ME</text>
+  <text x="22" y="90" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" fill="#9EAAB6">Free Portfolio Maker &amp; Hosting</text>
 </svg>

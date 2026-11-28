@@ -9,12 +9,14 @@ BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 STATS_PATH = os.path.join(BASE_DIR, "data", "github_stats.json")
 CARDS_DIR = os.path.join(BASE_DIR, "cards")
 
-PAPER = "#FAF9F6"
-PAPER_ALT = "#F2EFE9"
-INK = "#111111"
-INK_SOFT = "#55524D"
-INK_MUTED = "#8E8B84"
-RULE = "#DEDAD2"
+PAPER = "#0D1117"
+PAPER_ALT = "#161B22"
+INK = "#F0F6FC"
+INK_SOFT = "#9EAAB6"
+INK_MUTED = "#6E7681"
+RULE = "#30363D"
+ZORO = "#22C55E"
+ZORO_GLOW = "#4ADE80"
 
 FONT_SANS = "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
 FONT_MONO = "'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace"
@@ -86,8 +88,9 @@ def render_hero(stats):
         for c, r, rad, op in zdata.get("dots", []):
             x = round(cx0 + c * spacing, 1)
             y = round(cy0 + r * spacing, 1)
+            dot_color = ZORO_GLOW if r < 16 else (ZORO if r < 30 else INK)
             dots.append(
-                f'<circle cx="{x}" cy="{y}" r="{rad}" fill="{INK}" opacity="{op}"/>'
+                f'<circle cx="{x}" cy="{y}" r="{rad}" fill="{dot_color}" opacity="{op}"/>'
             )
     else:
         cols, rows = 14, 10
@@ -97,7 +100,7 @@ def render_hero(stats):
             for c in range(cols):
                 x = cx0 + c * spacing
                 y = cy0 + r * spacing
-                dots.append(f'<circle cx="{x}" cy="{y}" r="1.2" fill="{INK}" opacity="0.25"/>')
+                dots.append(f'<circle cx="{x}" cy="{y}" r="1.2" fill="{ZORO}" opacity="0.25"/>')
 
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 220" width="1000" height="220" role="img" aria-label="Neeraj K R — Full-Stack Engineer &amp; Creator of Portfoolio">
   <style>
@@ -106,19 +109,19 @@ def render_hero(stats):
     .scan {{ animation: scan 5s ease-in-out infinite; }}
     @keyframes scan {{ 0%, 100% {{ transform: translateY(0px); }} 50% {{ transform: translateY(130px); }} }}
   </style>
-  <rect x="2" y="2" width="996" height="216" rx="12" fill="{PAPER}" stroke="{INK}" stroke-width="2"/>
-  <rect x="16" y="16" width="968" height="188" rx="8" fill="none" stroke="{RULE}" stroke-width="1"/>
+  <rect x="2" y="2" width="996" height="216" rx="12" fill="{PAPER}" stroke="{RULE}" stroke-width="2"/>
+  <rect x="16" y="16" width="968" height="188" rx="8" fill="none" stroke="{RULE}" stroke-width="1" opacity="0.6"/>
 
-  <circle cx="42" cy="44" r="4.5" fill="{INK}" class="blink"/>
-  <text x="56" y="48" font-family="{FONT_MONO}" font-size="11" font-weight="700" letter-spacing="1.6" fill="{INK_SOFT}">LIVE · NEERAJKR.PORTFOOLIO.ME</text>
+  <circle cx="42" cy="44" r="4.5" fill="{ZORO_GLOW}" class="blink"/>
+  <text x="56" y="48" font-family="{FONT_MONO}" font-size="11" font-weight="700" letter-spacing="1.6" fill="{ZORO_GLOW}">LIVE · NEERAJKR.PORTFOOLIO.ME</text>
 
   <text x="38" y="102" font-family="{FONT_SANS}" font-size="44" font-weight="900" letter-spacing="-1.5" fill="{INK}">NEERAJ K R</text>
   <text x="38" y="134" font-family="{FONT_SANS}" font-size="17" font-weight="600" fill="{INK_SOFT}">Full-Stack Engineer &amp; Creator of Portfoolio</text>
   <text x="38" y="164" font-family="{FONT_MONO}" font-size="12.5" fill="{INK_MUTED}">Building developer tools, autonomous agents &amp; edge-rendered web apps · Kerala, IN</text>
 
-  <rect x="745" y="26" width="222" height="168" rx="8" fill="{PAPER_ALT}" stroke="{RULE}" stroke-width="1"/>
+  <rect x="745" y="26" width="222" height="168" rx="8" fill="{PAPER_ALT}" stroke="{ZORO}" stroke-width="1.2" stroke-opacity="0.45"/>
   {"".join(dots)}
-  <line x1="748" y1="32" x2="964" y2="32" stroke="{INK}" stroke-width="1" opacity="0.22" class="scan"/>
+  <line x1="748" y1="32" x2="964" y2="32" stroke="{ZORO_GLOW}" stroke-width="1.2" opacity="0.35" class="scan"/>
 </svg>'''
     write_svg("hero.svg", svg)
 
@@ -129,11 +132,11 @@ def render_heatmap(stats, metrics):
     days = contributions[-371:]
     rects = []
     level_colors = {
-        0: "#EFECE6",
-        1: "#C8C5BE",
-        2: "#8E8B84",
-        3: "#4A4843",
-        4: INK,
+        0: "#161B22",
+        1: "#0E4429",
+        2: "#006D32",
+        3: "#26A641",
+        4: "#39D353",
     }
 
     cell = 14
@@ -151,7 +154,7 @@ def render_heatmap(stats, metrics):
         x = start_x + col * (cell + gap)
         y = start_y + row * (cell + gap)
         lvl = int(day.get("level", 0))
-        color = level_colors.get(lvl, "#EFECE6")
+        color = level_colors.get(lvl, "#161B22")
         rects.append(f'<rect x="{x}" y="{y}" width="{cell}" height="{cell}" rx="3" fill="{color}"/>')
 
         d_str = day.get("date", "")
@@ -166,9 +169,9 @@ def render_heatmap(stats, metrics):
 
     total_str = f"{metrics['total']:,}"
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 196" width="1000" height="196" role="img" aria-label="Contribution graph for the last 12 months">
-  <rect x="2" y="2" width="996" height="192" rx="12" fill="{PAPER}" stroke="{INK}" stroke-width="2"/>
+  <rect x="2" y="2" width="996" height="192" rx="12" fill="{PAPER}" stroke="{RULE}" stroke-width="2"/>
   <text x="34" y="29" font-family="{FONT_MONO}" font-size="11.5" font-weight="700" letter-spacing="1.4" fill="{INK}">CONTRIBUTION GRAPH · LAST 12 MONTHS</text>
-  <text x="966" y="29" text-anchor="end" font-family="{FONT_MONO}" font-size="11.5" font-weight="700" fill="{INK}">{total_str} CONTRIBUTIONS</text>
+  <text x="966" y="29" text-anchor="end" font-family="{FONT_MONO}" font-size="11.5" font-weight="700" fill="{ZORO_GLOW}">{total_str} CONTRIBUTIONS</text>
   {"".join(month_labels)}
   {"".join(rects)}
 </svg>'''
@@ -190,7 +193,7 @@ def render_activity(metrics):
         x = base_x + i * (bar_w + gap)
         y = base_y - h
         m_label = ym[5:7]
-        fill = INK if val == max_val else "#6B6862"
+        fill = ZORO_GLOW if val == max_val else "#238636"
         bars.append(f'<rect x="{x}" y="{y}" width="{bar_w}" height="{h}" rx="3" fill="{fill}"/>')
         bars.append(
             f'<text x="{x + bar_w / 2}" y="138" text-anchor="middle" font-family="{FONT_MONO}" font-size="9" fill="{INK_MUTED}">{m_label}</text>'
@@ -198,13 +201,13 @@ def render_activity(metrics):
 
     b_date = metrics["busiest_date"] or "N/A"
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 156" width="1000" height="156" role="img" aria-label="Contributions by month and streaks">
-  <rect x="2" y="2" width="996" height="152" rx="12" fill="{PAPER}" stroke="{INK}" stroke-width="2"/>
-  <text x="34" y="30" font-family="{FONT_MONO}" font-size="11" font-weight="700" letter-spacing="1.4" fill="{INK_SOFT}">ACTIVITY METRICS</text>
+  <rect x="2" y="2" width="996" height="152" rx="12" fill="{PAPER}" stroke="{RULE}" stroke-width="2"/>
+  <text x="34" y="30" font-family="{FONT_MONO}" font-size="11" font-weight="700" letter-spacing="1.4" fill="{ZORO}">ACTIVITY METRICS</text>
 
   <text x="34" y="76" font-family="{FONT_SANS}" font-size="30" font-weight="900" fill="{INK}">{metrics["total"]:,}</text>
   <text x="34" y="96" font-family="{FONT_MONO}" font-size="10.5" fill="{INK_MUTED}">TOTAL (12M)</text>
 
-  <text x="174" y="76" font-family="{FONT_SANS}" font-size="30" font-weight="900" fill="{INK}">{metrics["longest_streak"]}d</text>
+  <text x="174" y="76" font-family="{FONT_SANS}" font-size="30" font-weight="900" fill="{ZORO_GLOW}">{metrics["longest_streak"]}d</text>
   <text x="174" y="96" font-family="{FONT_MONO}" font-size="10.5" fill="{INK_MUTED}">LONGEST STREAK</text>
 
   <text x="304" y="76" font-family="{FONT_SANS}" font-size="30" font-weight="900" fill="{INK}">{metrics["active_days"]}</text>
@@ -214,7 +217,7 @@ def render_activity(metrics):
   <text x="424" y="96" font-family="{FONT_MONO}" font-size="10.5" fill="{INK_MUTED}">BEST ({b_date})</text>
 
   <line x1="534" y1="24" x2="534" y2="132" stroke="{RULE}" stroke-width="1"/>
-  <text x="560" y="30" font-family="{FONT_MONO}" font-size="11" font-weight="700" letter-spacing="1.4" fill="{INK_SOFT}">MONTHLY CADENCE</text>
+  <text x="560" y="30" font-family="{FONT_MONO}" font-size="11" font-weight="700" letter-spacing="1.4" fill="{ZORO}">MONTHLY CADENCE</text>
   {"".join(bars)}
 </svg>'''
     write_svg("activity.svg", svg)
@@ -222,8 +225,8 @@ def render_activity(metrics):
 
 def render_mini_stat(filename, kicker, big_val, sub, aria):
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 112" width="330" height="112" role="img" aria-label="{escape(aria)}">
-  <rect x="2" y="2" width="326" height="108" rx="12" fill="{PAPER}" stroke="{INK}" stroke-width="2"/>
-  <text x="22" y="28" font-family="{FONT_MONO}" font-size="10.5" font-weight="700" letter-spacing="1.4" fill="{INK_MUTED}">{escape(kicker)}</text>
+  <rect x="2" y="2" width="326" height="108" rx="12" fill="{PAPER}" stroke="{RULE}" stroke-width="2"/>
+  <text x="22" y="28" font-family="{FONT_MONO}" font-size="10.5" font-weight="700" letter-spacing="1.4" fill="{ZORO}">{escape(kicker)}</text>
   <text x="22" y="66" font-family="{FONT_SANS}" font-size="24" font-weight="900" fill="{INK}">{escape(big_val)}</text>
   <text x="22" y="90" font-family="{FONT_MONO}" font-size="11" fill="{INK_SOFT}">{escape(sub)}</text>
 </svg>'''
@@ -232,22 +235,22 @@ def render_mini_stat(filename, kicker, big_val, sub, aria):
 
 def render_title_building():
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 54" width="1000" height="54" role="img" aria-label="What I am building">
-  <rect x="2" y="4" width="996" height="46" rx="10" fill="{INK}"/>
-  <text x="26" y="32" font-family="{FONT_MONO}" font-size="13" font-weight="700" letter-spacing="2" fill="{PAPER}">WHAT I&apos;M BUILDING</text>
-  <text x="974" y="32" text-anchor="end" font-family="{FONT_MONO}" font-size="11" fill="#A6A29A">SHIPPED &amp; IN PRODUCTION →</text>
+  <rect x="2" y="4" width="996" height="46" rx="10" fill="{PAPER_ALT}" stroke="{ZORO}" stroke-width="1.5"/>
+  <text x="26" y="32" font-family="{FONT_MONO}" font-size="13" font-weight="700" letter-spacing="2" fill="{ZORO_GLOW}">WHAT I&apos;M BUILDING</text>
+  <text x="974" y="32" text-anchor="end" font-family="{FONT_MONO}" font-size="11" fill="{INK_SOFT}">SHIPPED &amp; IN PRODUCTION →</text>
 </svg>'''
     write_svg("title-building.svg", svg)
 
 
 def render_repo_card(filename, title, stack, desc1, desc2, url_label):
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 148" width="330" height="148" role="img" aria-label="{escape(title)}">
-  <rect x="2" y="2" width="326" height="144" rx="12" fill="{PAPER}" stroke="{INK}" stroke-width="2"/>
+  <rect x="2" y="2" width="326" height="144" rx="12" fill="{PAPER}" stroke="{RULE}" stroke-width="2"/>
   <text x="22" y="32" font-family="{FONT_SANS}" font-size="18" font-weight="900" fill="{INK}">{escape(title)}</text>
-  <text x="308" y="32" text-anchor="end" font-family="{FONT_MONO}" font-size="10.5" font-weight="700" fill="{INK_MUTED}">{escape(stack)}</text>
+  <text x="308" y="32" text-anchor="end" font-family="{FONT_MONO}" font-size="10.5" font-weight="700" fill="{ZORO_GLOW}">{escape(stack)}</text>
   <line x1="22" y1="44" x2="308" y2="44" stroke="{RULE}" stroke-width="1"/>
   <text x="22" y="72" font-family="{FONT_SANS}" font-size="12.5" fill="{INK_SOFT}">{escape(desc1)}</text>
   <text x="22" y="92" font-family="{FONT_SANS}" font-size="12.5" fill="{INK_SOFT}">{escape(desc2)}</text>
-  <text x="22" y="126" font-family="{FONT_MONO}" font-size="11" font-weight="700" fill="{INK}">{escape(url_label)} ↗</text>
+  <text x="22" y="126" font-family="{FONT_MONO}" font-size="11" font-weight="700" fill="{ZORO}">{escape(url_label)} ↗</text>
 </svg>'''
     write_svg(filename, svg)
 
@@ -264,7 +267,7 @@ def render_skills():
     y = 60
     for cat, items in rows:
         lines.append(
-            f'<text x="34" y="{y}" font-family="{FONT_MONO}" font-size="11" font-weight="700" letter-spacing="1.1" fill="{INK}">{escape(cat)}</text>'
+            f'<text x="34" y="{y}" font-family="{FONT_MONO}" font-size="11" font-weight="700" letter-spacing="1.1" fill="{ZORO_GLOW}">{escape(cat)}</text>'
         )
         lines.append(
             f'<text x="195" y="{y}" font-family="{FONT_SANS}" font-size="13" font-weight="500" fill="{INK_SOFT}">{escape(items)}</text>'
@@ -272,8 +275,8 @@ def render_skills():
         y += 26
 
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 186" width="1000" height="186" role="img" aria-label="Skills and stack">
-  <rect x="2" y="2" width="996" height="182" rx="12" fill="{PAPER}" stroke="{INK}" stroke-width="2"/>
-  <text x="34" y="30" font-family="{FONT_MONO}" font-size="11" font-weight="700" letter-spacing="1.4" fill="{INK_MUTED}">SKILLS &amp; TECHNICAL STACK</text>
+  <rect x="2" y="2" width="996" height="182" rx="12" fill="{PAPER}" stroke="{RULE}" stroke-width="2"/>
+  <text x="34" y="30" font-family="{FONT_MONO}" font-size="11" font-weight="700" letter-spacing="1.4" fill="{ZORO}">SKILLS &amp; TECHNICAL STACK</text>
   <line x1="34" y1="40" x2="966" y2="40" stroke="{RULE}" stroke-width="1"/>
   {"".join(lines)}
 </svg>'''

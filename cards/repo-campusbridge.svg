@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 148" width="330" height="148" role="img" aria-label="CampusBridge">
-  <rect x="2" y="2" width="326" height="144" rx="12" fill="#FAF9F6" stroke="#111111" stroke-width="2"/>
-  <text x="22" y="32" font-family="'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="900" fill="#111111">CampusBridge</text>
-  <text x="308" y="32" text-anchor="end" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10.5" font-weight="700" fill="#8E8B84">JS · ★ 2</text>
-  <line x1="22" y1="44" x2="308" y2="44" stroke="#DEDAD2" stroke-width="1"/>
-  <text x="22" y="72" font-family="'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#55524D">Student &amp; campus resource</text>
-  <text x="22" y="92" font-family="'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#55524D">collaboration platform.</text>
-  <text x="22" y="126" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" font-weight="700" fill="#111111">github.com/neeraj-k-r/campusbridge ↗</text>
+  <rect x="2" y="2" width="326" height="144" rx="12" fill="#0D1117" stroke="#30363D" stroke-width="2"/>
+  <text x="22" y="32" font-family="'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="900" fill="#F0F6FC">CampusBridge</text>
+  <text x="308" y="32" text-anchor="end" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10.5" font-weight="700" fill="#4ADE80">JS · ★ 2</text>
+  <line x1="22" y1="44" x2="308" y2="44" stroke="#30363D" stroke-width="1"/>
+  <text x="22" y="72" font-family="'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#9EAAB6">Student &amp; campus resource</text>
+  <text x="22" y="92" font-family="'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#9EAAB6">collaboration platform.</text>
+  <text x="22" y="126" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" font-weight="700" fill="#22C55E">github.com/neeraj-k-r/campusbridge ↗</text>
 </svg>
