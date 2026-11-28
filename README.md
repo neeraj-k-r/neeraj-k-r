@@ -1,79 +1,19 @@
- 
-   
+<!-- Every card is an animated SVG drawn by scripts/render_readme_cards.py from real
+     GitHub data (scripts/fetch_contributions.py) and refreshed daily by
+     .github/workflows/update-profile-art.yml. Design: paper white and ink black
+     only, slim cards, dot portrait in the hero. Spacing is baked into the
+     SVGs, so keep this block free of blank lines and keep the cards in a row on
+     one line with no spaces between them. -->
 <div align="center">
-
-  <!-- Terminal Wordmark Header (Image 1) -->
-  <a href="https://github.com/neeraj-k-r">
-    <img src="assets/wordmark.png" alt="neeraj-k-r wordmark" width="100%" />
-  </a>
-
-  <br/>
-
-  <p align="center">
-    <strong>Neeraj K R</strong> · AI Developer & Full-Stack Engineer
-    <br/>
-    <sub>Building modern web applications, intelligent agents, and interactive experiences.</sub>
-  </p>
-
-  <p align="center">
-    <a href="https://neerajkr.portfoolio.me"><img src="https://img.shields.io/badge/Portfolio-Live-7c3aed?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
-    <a href="https://github.com/neeraj-k-r"><img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-    <a href="https://linkedin.com/in/neeraj-k-r"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-    <a href="mailto:neerajkr101010@gmail.com"><img src="https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  </p>
-
+<a href="https://neerajkr.portfoolio.me"><img src="./cards/hero.svg" width="100%" alt="Neeraj K R — Full-Stack Engineer and Creator of Portfoolio" /></a><br>
+<img src="./cards/heatmap.svg" width="100%" alt="Contribution graph for the last 12 months, in ink black, refreshed daily" /><br>
+<img src="./cards/activity.svg" width="100%" alt="Contributions by month, with total, longest streak, active days and busiest day" /><br>
+<a href="https://github.com/neeraj-k-r?tab=repositories"><img src="./cards/build.svg" width="33.333%" alt="Shipped: 16 public repos" /></a><a href="https://portfoolio.me"><img src="./cards/portfoolio.svg" width="33.333%" alt="Flagship: Portfoolio.me — Free Developer Portfolio Maker & Hosting" /></a><a href="https://github.com/neeraj-k-r"><img src="./cards/stars.svg" width="33.333%" alt="Yearly output and longest streak" /></a><br>
+<img src="./cards/title-building.svg" width="100%" alt="What I'm building" /><br>
+<a href="https://portfoolio.me"><img src="./cards/repo-portfoolio.svg" width="33.333%" alt="Portfoolio — Developer portfolio maker & wildcard hosting" /></a><a href="https://github.com/neeraj-k-r/AKSHAYA-SAHAYI"><img src="./cards/repo-akshaya.svg" width="33.333%" alt="Akshaya-Sahayi" /></a><a href="https://github.com/neeraj-k-r/campusbridge"><img src="./cards/repo-campusbridge.svg" width="33.333%" alt="CampusBridge" /></a><br>
+<img src="./cards/skills.svg" width="100%" alt="Skills and stack: Languages, Frontend, Backend, Cloud and Data, AI and Agents" /><br><br>
+<a href="https://neerajkr.portfoolio.me"><img src="https://img.shields.io/badge/Portfolio-neerajkr.portfoolio.me-111111?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
+<a href="https://portfoolio.me"><img src="https://img.shields.io/badge/Portfoolio-Portfolio_Maker-111111?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Portfoolio Maker" /></a>
+<a href="https://linkedin.com/in/neeraj-k-r"><img src="https://img.shields.io/badge/LinkedIn-Connect-111111?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="mailto:neerajkr101010@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-111111?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 </div>
-
----
-
-<!-- Featured reel Section (Image 2) -->
-<div align="center">
-  <a href="https://github.com/neeraj-k-r?tab=repositories">
-    <img src="assets/featured-reel.png" alt="Featured reel" width="100%" />
-  </a>
-</div>
-
----
-
-## 🧰 Stack & Technologies
-
-<div align="center">
-  <img src="https://www.gitskins.com/api/section/stack?username=neeraj-k-r&sectionStyle=terminal&theme=neon" alt="neeraj-k-r tech stack" width="100%" />
-</div>
-
-<br/>
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,nodejs,express,python,html,css,tailwind,mongodb,postgres,git,github,docker" alt="Skills" />
-</p>
-
----
-
-## 📊 By The Numbers
-
-<div align="center">
-  <img src="https://www.gitskins.com/api/section/stats?username=neeraj-k-r&sectionStyle=terminal&theme=neon" alt="neeraj-k-r stats" width="100%" />
-</div>
-
----
-
-
-  <sub><code>neeraj-k-r@github:~$ exit 0</code></sub>
-</div>
-## 🟩 Contribution Activity
-
-<div align="center">
-  <img src="https://www.gitskins.com/api/section/heatmap?username=neeraj-k-r&theme=neon" alt="neeraj-k-r contribution activity" width="100%" />
-</div>
-
----
-
-## 💬 Say Hello
-
-<div align="center">
-  <img src="https://www.gitskins.com/api/section/social?username=neeraj-k-r&sectionStyle=terminal&theme=neon" alt="neeraj-k-r social card" width="100%" />
-</div>
-
-<br/>
-
-<div align="center">
